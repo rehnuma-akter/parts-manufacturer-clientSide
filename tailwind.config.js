@@ -7,10 +7,10 @@ module.exports = {
     themes: [
       {
         computertheme: {
-          primary: "#0FCFEC",
-          secondary: "#19D3AE",
-          accent: "#3A4256",
-          neutral: "#3d4451",
+          primary: "#f9f3e5",
+          secondary: "#a86446",
+          accent: "#83b8a1",
+          neutral: "#5c8271",
           "base-100": "#ffffff",
         },
       },
