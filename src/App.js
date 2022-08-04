@@ -10,6 +10,7 @@ import Register from "./Pages/Login/Register";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Contact from './Pages/Contact/Contact';
+import Footer from './Pages/Shared/Footer';
 
 
 
@@ -29,6 +30,7 @@ function App() {
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
       <ToastContainer />
+      <Footer></Footer>
     </div>
   );
 }

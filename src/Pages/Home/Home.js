@@ -1,7 +1,7 @@
 import React from 'react';
 import Products from '../Home/Products';
-import Footer from '../Shared/Footer';
 import ExtraOne from './ExtraOne';
+import ExtraTwo from './ExtraTwo';
 import Reviews from './Reviews';
 import Summary from './Summary';
 
@@ -38,12 +38,13 @@ const Home = () => {
             <Products></Products>
             {/* business summary section */}
             <Summary></Summary>
-            {/* customer reviews section */}
-            <Reviews></Reviews>
             {/* extra section one */}
             <ExtraOne></ExtraOne>
-            {/* footer section */}
-            <Footer></Footer>
+            {/* customer reviews section */}
+            <Reviews></Reviews>
+            {/* extra section two */}
+            <ExtraTwo></ExtraTwo>
+            
         </div>
     );
 };

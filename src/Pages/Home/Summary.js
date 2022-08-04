@@ -1,11 +1,13 @@
 import React from 'react';
+import { Link } from "react-router-dom";
+
 
 const Summary = () => {
     return (
         <div className='bg-secondary mt-20 h-screen text-white'>
             <h2 className='text-4xl text-center pt-10 text-white'>You are in the right company</h2>
             <p className='text-sm mt-7'>We have served over millions of customers and provided satisfaction with our service.</p>
-            <div class="stats shadow w-full mt-20 bg-primary-focus text-secondary">
+            <div class="stats shadow w-full mt-20 bg-primary text-secondary">
                 <div class="stat">
                     <div class="stat-figure">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-8 h-8 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
@@ -38,9 +40,9 @@ const Summary = () => {
                     <h2 class="card-title text-center justify-center">Do you have any questions or want to learn more?</h2>
                     <p>Do not hesitate to ask us</p>
                     <div class="card-actions justify-center">
-                        <button class="btn btn-primary bg-gradient-to-r from-neutral to-accent text-white border-none normal-case rounded-3xl px-12 mt-5">
+                        <Link to='/contact' class="btn btn-primary bg-gradient-to-r from-neutral to-accent text-white border-none normal-case rounded-3xl px-12 mt-5">
                             Contact Now
-                        </button>
+                        </Link>
                     </div>
                 </div>
             </div>
