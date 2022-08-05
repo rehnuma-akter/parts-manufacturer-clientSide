@@ -11,6 +11,8 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Contact from './Pages/Contact/Contact';
 import Footer from './Pages/Shared/Footer';
+import RequireAuth from './Pages/Login/RequireAuth';
+import Dashboard from './Pages/Dashboard/Dashboard';
 
 
 
@@ -25,6 +27,7 @@ function App() {
         <Route path="blog" element={<Blog></Blog>}></Route>
         <Route path="portfolio" element={<MyPortfolio></MyPortfolio>}></Route>
         <Route path="contact" element={<Contact></Contact>}></Route>
+        <Route path="dashboard" element={<RequireAuth><Dashboard></Dashboard></RequireAuth>}></Route>
         <Route path="login" element={<Login></Login>}></Route>
         <Route path="register" element={<Register></Register>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>

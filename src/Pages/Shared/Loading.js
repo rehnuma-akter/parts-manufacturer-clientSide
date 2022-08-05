@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
 const Loading = () => {
     return (
-        <div>
-            <h2>loading</h2>
+        <div className="h-screen flex justify-center items-center">
+        <button className="btn loading">loading</button>
         </div>
     );
 };

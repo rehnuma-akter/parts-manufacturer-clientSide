@@ -10,7 +10,7 @@ const MyPortfolio = () => {
                     <span className='text-secondary text-2xl'> ✨Rehnuma Akter Ruhi</span></p>
                     <p className="text-sm mb-4">Connect with me via email, <span className='font-bold text-xl'>✨rakterruhi@gmail.com</span></p>
                     <h2 className='pb-4 text-xl'>✨I am currently completing my graduation in Computer Science.</h2>
-                    <p className='text-center text-xl mb-6'>✨My Skills or technologies that I am familiar with are -</p>
+                    <p className='text-center text-xl mb-6'>✨The Skills or Technologies that I am familiar with as a developer are -</p>
                     <p className=''>Html, CSS, Bootstrap, Tailwind, JavaScript, React, Node.js, Java, MongoDB, Firebase</p>
                     <p className='text-center text-xl my-4'>✨Some of my works</p>
                     
