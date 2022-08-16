@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 const ExtraTwo = () => {
     return (
-        <div className='pt-12 mb-12'>
-            <h2 className='text-3xl text-left ml-5 my-8'>Our Latest News</h2>
-            <div className='grid grid-cols-1 lg:grid-cols-5 gap-5 mx-5'>
+        <div className='my-16'>
+            <h2 className='text-4xl text-left ml-5 my-8'>Our Latest News</h2>
+            <div className='grid grid-cols-1 lg:grid-cols-5 gap-5 mx-5 py-12'>
                 <div class="card lg:max-w-lg bg-primary justify-center items-center">
                 <figure>
                     <img src="https://i.ibb.co/hKQjjPB/female-on-beach-on-laptop.jpg" alt="Shoes" />

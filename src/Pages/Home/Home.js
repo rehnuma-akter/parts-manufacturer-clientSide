@@ -1,7 +1,7 @@
 import React from 'react';
-import Parts from '../Home/Parts';
 import ExtraOne from './ExtraOne';
 import ExtraTwo from './ExtraTwo';
+import Products from './Products';
 import Reviews from './Reviews';
 import Summary from './Summary';
 
@@ -35,7 +35,7 @@ const Home = () => {
                 </div>
             </div>
             {/* products section */}
-            <Parts></Parts>
+            <Products></Products>
             {/* business summary section */}
             <Summary></Summary>
             {/* extra section one */}
